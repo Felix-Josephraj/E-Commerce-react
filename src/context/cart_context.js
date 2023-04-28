@@ -11,7 +11,7 @@ import {
 const localCart = JSON.parse(localStorage.getItem('cartDetails'))
 
 const initialState = {
-  cart: [...localCart],
+  cart: [],
   totalItems: 0,
   totalAmount: 0,
   shippingFee: 534,
